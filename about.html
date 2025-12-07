@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Weihang Hu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                    </svg>
+                </div>
+                <span>Weihang.Dev</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </label>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active" style="color: var(--accent-yellow);">About</a>
+                <a href="portfolio.html">Projects</a>
+                <a href="contact.html" class="btn-nav">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="profile-img-container">
+                    <img src="profile_pic.png" alt="Weihang Hu" class="profile-img">
+                </div>
+                <h1 class="section-title" style="margin-bottom: 1rem;">About Me</h1>
+                <p>
+                    I am a motivated and detail-oriented Computer Science student. 
+                    With a strong foundation in Software Engineering, Game Development, and AI, 
+                    I thrive on solving complex problems. I am currently seeking an internship to apply my knowledge, 
+                    grow professionally, and contribute to impactful projects.
+                </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <h2 class="section-title">Technical Expertise</h2>
+            
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Software Engineering</h3>
+                    <p>Experienced in building robust applications using Python and C++. Proficient in Git for version control and SQL for database management.</p>
+                </div>
+                <div class="card">
+                    <h3>Game Development</h3>
+                    <p>Creating immersive 3D experiences using Unity and C#. Skilled in implementing core game mechanics, AI behaviors, and physics.</p>
+                </div>
+                <div class="card">
+                    <h3>Web & AI</h3>
+                    <p>Developing full-stack web apps (HTML/CSS/JS) and integrating Neural Networks using TensorFlow and Keras for predictive analysis.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Weihang Hu. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
